@@ -436,6 +436,7 @@ class QueryCursor {
 			headers: {
 				'Content-Type': 'text/plain'
 			},
+			forever: true,
 		}, reqParams);
 		
 		const configQS = _.merge({}, config, {
